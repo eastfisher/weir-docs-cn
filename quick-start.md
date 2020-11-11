@@ -30,3 +30,13 @@ make weirproxy
 
 生成的weirproxy二进制文件位于bin/目录下, 文件名为bin/weirproxy.
 
+启动weirproxy.
+
+```
+./bin/weirproxy
+```
+
+weirproxy会默认读取示例配置文件conf/weirproxy.yml进行启动, 示例配置使用本地文件作为namespace配置中心, 配置文件位于xxx目录下.
+
+通过weirproxy访问TiDB集群
+
